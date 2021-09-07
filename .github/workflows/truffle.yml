@@ -9,22 +9,24 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
+  create-envfile:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-    - run: npm --version
     - name: Create .env file
       uses: SpicyPizza/create-envfile@v1.1
       with:
         envkey_TOKEN_NAME: Fluwix
         envkey_TOKEN_SYMBOL: FWX
         envkey_INITIAL_TOKEN_SUPPLY: 1000000000
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm --version
     - name: Install Truffle
       run: npm install truffle -g
     - name: Run Truffle Test  
