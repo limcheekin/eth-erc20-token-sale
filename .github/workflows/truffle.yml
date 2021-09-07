@@ -19,8 +19,15 @@ jobs:
       with:
         node-version: '14'
     - run: npm --version
+    - name: Create .env file
+      uses: SpicyPizza/create-envfile@v1.1
+      with:
+        envkey_TOKEN_NAME: Fluwix
+        envkey_TOKEN_SYMBOL: FWX
+        envkey_INITIAL_TOKEN_SUPPLY: 1000000000
     - name: Install Truffle
       run: npm install truffle -g
     - name: Run Truffle Test  
       run: truffle test
+
 
