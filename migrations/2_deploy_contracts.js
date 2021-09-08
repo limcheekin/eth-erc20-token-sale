@@ -4,7 +4,7 @@ const FluwixTokenSale = artifacts.require("FluwixTokenSale");
 
 module.exports = async function (deployer, network, accounts) {
     const { TOKEN_NAME, TOKEN_SYMBOL, INITIAL_TOKEN_SUPPLY } = process.env;
-    const initialAccount = deployer
+    const initialAccount = accounts[0]
     const rate = 1; // 1 wei per token
 
     await deployer.deploy(FluwixToken, TOKEN_NAME, TOKEN_SYMBOL, INITIAL_TOKEN_SUPPLY);
