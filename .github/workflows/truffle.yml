@@ -20,7 +20,7 @@ jobs:
     - name: Create .env file
       run: echo "${{ secrets.DOT_ENV }}";echo "${{ secrets.DOT_ENV }}" > .env  
     - name: Install Truffle
-      run: npm install truffle -g
+      run: npm install truffle@5.4.8 -g
     - name: Run Truffle Test  
       run: truffle test
 
