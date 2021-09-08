@@ -7,7 +7,7 @@ const {
 } = require('@openzeppelin/test-helpers')
 
 
-contract('FluwixToken', ([sender, receiver, ...accounts]) => {
+contract('FluwixTokenTest', ([sender, receiver, ...accounts]) => {
   const { TOKEN_NAME, TOKEN_SYMBOL, INITIAL_TOKEN_SUPPLY } = process.env
 
   beforeEach(async () => {
@@ -36,7 +36,7 @@ contract('FluwixToken', ([sender, receiver, ...accounts]) => {
                 (await this.erc20.totalSupply()).toString())
   })
 
-  it('balanceOf(sender)', async () => {
+  it('balanceOf(sender) correct?', async () => {
     assert.equal(INITIAL_TOKEN_SUPPLY.toString(), 
                 (await this.erc20.balanceOf(sender)).toString())
   })  
