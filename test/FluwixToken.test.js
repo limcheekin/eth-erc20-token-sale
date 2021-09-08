@@ -8,11 +8,12 @@ const {
 
 
 contract('FluwixToken', ([sender, receiver, ...accounts]) => {
+  const { TOKEN_NAME, TOKEN_SYMBOL, INITIAL_TOKEN_SUPPLY } = process.env
+
   beforeEach(async () => {
     // The bundled BN library is the same one web3 uses under the hood
     this.value = new BN(1)
     const FluwixToken = artifacts.require('FluwixToken')
-    const { TOKEN_NAME, TOKEN_SYMBOL, INITIAL_TOKEN_SUPPLY } = process.env
     const params = [
       TOKEN_NAME,
       TOKEN_SYMBOL,
@@ -21,6 +22,24 @@ contract('FluwixToken', ([sender, receiver, ...accounts]) => {
 
     this.erc20 = await FluwixToken.new(...params)
   })
+
+  it('name() correct?', async () => {
+    assert.equal(TOKEN_NAME, await this.erc20.name())
+  })
+
+  it('symbol() correct?', async () => {
+    assert.equal(TOKEN_SYMBOL, await this.erc20.symbol())
+  })
+
+  it('totalSupply() correct?', async () => {
+    assert.equal(INITIAL_TOKEN_SUPPLY.toString(), 
+                (await this.erc20.totalSupply()).toString())
+  })
+
+  it('balanceOf(sender)', async () => {
+    assert.equal(INITIAL_TOKEN_SUPPLY.toString(), 
+                (await this.erc20.balanceOf(sender)).toString())
+  })  
 
   it('reverts when transferring tokens to the zero address', async () => {
     // Conditions that trigger a require statement can be precisely tested
