@@ -151,7 +151,8 @@ contract Crowdsale is ReentrancyGuard {
      */
     function _preValidatePurchase(address beneficiary, uint256 weiAmount)
         internal
-        pure
+        view
+        virtual
     {
         require(
             beneficiary != address(0),

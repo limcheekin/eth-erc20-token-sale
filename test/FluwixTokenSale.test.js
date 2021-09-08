@@ -6,9 +6,11 @@ const {
 contract('FluwixTokenSaleTest', ([sender, receiver, ...accounts]) => {
   const FluwixToken = artifacts.require('FluwixToken')
   const FluwixTokenSale = artifacts.require('FluwixTokenSale')
+  const Kyc = artifacts.require('Kyc')
   
   before(async () => {
     this.token = await FluwixToken.deployed()
+    this.kyc = await Kyc.deployed()
     this.tokenSale = await FluwixTokenSale.deployed()
   })
 
@@ -29,10 +31,11 @@ contract('FluwixTokenSaleTest', ([sender, receiver, ...accounts]) => {
   it('should be able to buy tokens', async () => {
     const previousBalance = await this.token.balanceOf(sender)
     const value = new BN(1)
+    await this.kyc.setKycCompleted(sender, { from: sender })
     const receipt = await this.tokenSale.sendTransaction(
       { from: sender, value }
     )
-    console.log('receipt', receipt)
+    // console.log('receipt', receipt)
     expectEvent(receipt, 'TokensPurchased', {
       purchaser: sender,
       beneficiary: sender,
