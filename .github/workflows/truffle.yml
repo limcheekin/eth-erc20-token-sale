@@ -18,9 +18,9 @@ jobs:
         node-version: '14'
     - run: npm --version
     - name: Create .env file
-      run: echo "${{ secrets.DOT_ENV }}";echo "${{ secrets.DOT_ENV }}" > .env  
+      run: echo "${{ secrets.DOT_ENV }}" > .env  
     - name: Install Truffle
-      run: npm install truffle@5.4.8 -g
+      run: npm install truffle -g
     - name: Install Truffle Dependencies
       run: npm install
     - name: Run Truffle Test  
