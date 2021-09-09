@@ -6,11 +6,12 @@ import Layout from '../components/Layout'
 import ConnectButton from '../components/ConnectButton'
 import { useDisclosure } from '@chakra-ui/react'
 import AccountModal from '../components/AccountModal'
+import TokenSale from '../components/TokenSale'
 
 function Home() {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
-  const title = 'Ethereum dApps Next.js Boiletplate'
+  const title = 'Fluwix Token Sale'
   return (
     <Layout>
       <Head>
@@ -21,11 +22,11 @@ function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/limcheekin/eth-dapps-nextjs-boiletplate">{title}</a>
+          Welcome to <a href="https://github.com/limcheekin/fluwix-token-sales">{title}</a>
         </h1>
 
         <p className={styles.description}>
-          A simple dApps to demo the integration of MetaMask, WalletConnect and Greeter smart contract.
+          A dApps to demo the Crowd Sale of an ERC20 token known as Fluwix (FWX).
         </p>
 
         {
@@ -36,6 +37,7 @@ function Home() {
         // Our Account modal will handle open state & closing
         }
         <AccountModal isOpen={isOpen} onClose={onClose} />
+        <TokenSale />
       </main>
 
       <footer className={styles.footer}>
