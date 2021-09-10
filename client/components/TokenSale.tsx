@@ -86,10 +86,20 @@ export default function TokenSale() {
     <div>
       {fluwixTokenSale ?
         (
-          <Grid mt="5" templateColumns="repeat(2, 1fr)" templateRows="repeat(4, 1fr)" gap={3}>
+          <Grid mt="5" templateColumns="repeat(2, 1fr)" templateRows="repeat(5, 1fr)" gap={3}>
+            <GridItem colSpan={2}>
+              <Text>
+                As an owner of the token sale (The account used for smart contract deployment), <br/> 
+                you need to whitelist the buyer account before they can buy token.
+              </Text>
+            </GridItem>
             <GridItem align="end">{setKycButton}</GridItem>
             <GridItem>{kycAddressInput}</GridItem>
             <GridItem colSpan={2}>
+              <Text>
+                Once the buyer account being whitelisted by the owner, 
+                it can participate in the token sale.
+              </Text>
               <Text fontWeight="bold" textAlign="center">Token Contract Address: {FLUWIX_TOKEN_CONTRACT_ADDRESS}</Text>
             </GridItem>
             <GridItem align="end">{buyTokenButton}</GridItem>
