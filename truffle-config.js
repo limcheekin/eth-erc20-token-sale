@@ -22,6 +22,9 @@
 // const infuraKey = "fj4jll3k.....";
 //
 // const fs = require('fs');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+const fs = require('fs');
+const privateKey = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
@@ -75,10 +78,7 @@ module.exports = {
     // It's important to wrap the provider as a function.
     rinkeby: {
       provider: () => {
-        const HDWalletProvider = require('@truffle/hdwallet-provider');
-        const fs = require('fs');
-        const privateKey = fs.readFileSync(".secret").toString().trim();
-        new HDWalletProvider(
+        return new HDWalletProvider(
           privateKey,
           `https://rinkeby.infura.io/v3/b874a2f145f84dc5a8466e5490816511`
         )
