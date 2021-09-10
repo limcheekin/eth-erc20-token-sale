@@ -10,10 +10,10 @@ import BeatLoader from 'react-spinners/BeatLoader'
 // REF: https://dev.to/jacobedawson/send-react-web3-dapp-transactions-via-metamask-2b8n
 export default function TokenSale() {
   const { globalState, dispatch } = useContext(globalContext)
-  const { account, web3, provider } = globalState
-  const { FLUWIX_TOKEN_CONTRACT_ADDRESS } = process.env
-  const { KYC_CONTRACT_ADDRESS } = process.env
-  const { FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS } = process.env
+  const { account, web3 } = globalState
+  const FLUWIX_TOKEN_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_FLUWIX_TOKEN_CONTRACT_ADDRESS
+  const KYC_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_KYC_CONTRACT_ADDRESS
+  const FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS
   const fluwixTokenAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(FluwixToken.abi))
   const fluwixTokenSaleAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(FluwixTokenSale.abi))
   const kycAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(Kyc.abi))
