@@ -23,8 +23,8 @@ export default function TokenSale() {
   // REF: https://stackoverflow.com/questions/55757761/handle-an-input-with-react-hooks
   const [kycAddress, kycAddressInput] = useInput()
   const [buyToken, buyTokenInput] = useInput()
-  const [setKycButton] = useButton(handleKycAddress, 'Allow address to buy FWX token')
-  const [buyTokenButton] = useButton(handleBuyTokens, 'Buy FWX token')
+  const [kycLoading, setKycButton] = useButton(handleKycAddress, 'Allow address to buy FWX token')
+  const [buyTokenLoading, buyTokenButton] = useButton(handleBuyTokens, 'Buy FWX token')
   const [balance, setBalance] = useState(0)
 
   function useInput() {
@@ -37,8 +37,8 @@ export default function TokenSale() {
     const [loading, setLoading] = useState(false)
     const button = <Button isFullWidth isLoading={loading}
       spinner={<BeatLoader size={8} color="grey" />}
-      onClick={() => { setLoading(true); onClickHandler(); setLoading(false) }}>{label}</Button>
-    return [button]
+      onClick={async () => { setLoading(true); await onClickHandler(); setLoading(false) }}>{label}</Button>
+    return [loading, button]
   }
 
   async function handleKycAddress() {
