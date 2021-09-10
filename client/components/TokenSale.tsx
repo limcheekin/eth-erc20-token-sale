@@ -86,26 +86,26 @@ export default function TokenSale() {
     <div>
       {fluwixTokenSale ?
         (
-          <Grid mt="5" templateColumns="repeat(2, 1fr)" templateRows="repeat(5, 1fr)" gap={3}>
+          <Grid mt="5" maxWidth={800} templateColumns="repeat(2, 1fr)" templateRows="repeat(5, 1fr)" gap={1}>
             <GridItem colSpan={2}>
-              <Text>
-                As an owner of the token sale (The account used for smart contract deployment), <br/> 
-                you need to whitelist the buyer account before they can buy token.
-              </Text>
+                <Text>
+                As an owner of the token sale (The account used for smart contract deployment),
+                you need to whitelist the buyer accounts before they can buy token.
+                </Text>
             </GridItem>
             <GridItem align="end">{setKycButton}</GridItem>
             <GridItem>{kycAddressInput}</GridItem>
-            <GridItem colSpan={2}>
-              <Text>
-                Once the buyer account being whitelisted by the owner, 
-                it can participate in the token sale.
-              </Text>
-              <Text fontWeight="bold" textAlign="center">Token Contract Address: {FLUWIX_TOKEN_CONTRACT_ADDRESS}</Text>
+            <GridItem colSpan={2}><Text>Once a buyer account being whitelisted by the owner,
+                it can participate in the token sale by sending Wei to
+                the following contract address or using the Buy FWX token button below:</Text>
+              <Text fontWeight="bold" textAlign="center">{FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS}</Text>
             </GridItem>
             <GridItem align="end">{buyTokenButton}</GridItem>
             <GridItem>{buyTokenInput}</GridItem>
             <GridItem colSpan={2}>
               <Text fontWeight="bold" textAlign="center">Your FWX Balance is {balance}</Text>
+              <Text>If you want to see the FWX balance in your wallet, add the token with the following contract address:</Text>
+              <Text fontWeight="bold" textAlign="center">{FLUWIX_TOKEN_CONTRACT_ADDRESS}</Text>
             </GridItem>
           </Grid>
         ) : ''
