@@ -21,15 +21,15 @@ export default function TokenSale() {
   const kyc = web3 && KYC_CONTRACT_ADDRESS && new web3.eth.Contract(kycAbi, KYC_CONTRACT_ADDRESS)
   const fluwixTokenSale = web3 && FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS && new web3.eth.Contract(fluwixTokenSaleAbi, FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS)
   // REF: https://stackoverflow.com/questions/55757761/handle-an-input-with-react-hooks
-  const [kycAddress, kycAddressInput] = useInput()
-  const [buyToken, buyTokenInput] = useInput()
   const [kycLoading, setKycButton] = useButton(handleKycAddress, 'Allow address to buy FWX token')
   const [buyTokenLoading, buyTokenButton] = useButton(handleBuyTokens, 'Buy FWX token')
+  const [kycAddress, kycAddressInput] = useInput(kycLoading as boolean)
+  const [buyToken, buyTokenInput] = useInput(buyTokenLoading as boolean)
   const [balance, setBalance] = useState(0)
 
-  function useInput() {
+  function useInput(isReadOnly: boolean) {
     const [value, setValue] = useState("")
-    const input = <Input value={value} onChange={e => setValue(e.target.value)} />
+    const input = <Input value={value} isReadOnly={isReadOnly} onChange={e => setValue(e.target.value)} />
     return [value, input]
   }
 
