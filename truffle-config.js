@@ -24,7 +24,8 @@
 // const fs = require('fs');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
-const privateKey = fs.readFileSync(".secret").toString().trim();
+const privateKeyFile = '.secret';
+const privateKey = fs.existsSync(privateKeyFile) && fs.readFileSync(privateKeyFile).toString().trim();
 
 module.exports = {
   /**
