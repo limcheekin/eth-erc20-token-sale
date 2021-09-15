@@ -65,7 +65,7 @@ jobs:
     
     - name: Move SmartBugs Results to Parent Directory
       run: |
-        rm -r results
+        [[ -f results ]] && rm -r results
         cd smartbugs
         mv results ../
     - name: Commit SmartBugs Results
