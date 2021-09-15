@@ -1,5 +1,5 @@
 {
-  "name": "greeter",
+  "name": "eth-erc20-token-sale",
   "version": "0.1.0",
   "private": true,
   "scripts": {
