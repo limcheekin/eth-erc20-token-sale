@@ -61,8 +61,14 @@ jobs:
     - name: Remove SmartBugs Results and Install SmartBugs Dependencies
       run: cd smartbugs;rm -r results;pip install -r requirements.txt
     - name: Run SmartBugs Analysis
-      run: DIR=$(pwd);cd smartbugs;python smartBugs.py --tool all --file $DIR/contracts/Greeter.sol
-    
+      run: |
+        solidityFiles=($(ls -I Migrations.sol contracts))
+        DIR=$(pwd);cd smartbugs
+        for sol in "${solidityFiles[@]}"
+        do
+          python smartBugs.py --tool all --file $DIR/contracts/$sol
+        done
+           
     - name: Move SmartBugs Results to Parent Directory
       run: |
         [[ -d results ]] && rm -r results
