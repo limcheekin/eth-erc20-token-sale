@@ -1,0 +1,2273 @@
+{
+  "contract": "Crowdsale",
+  "tool": "solhint",
+  "start": 1631692686.9213645,
+  "end": 1631692692.5931582,
+  "duration": 5.671793699264526,
+  "analysis": [
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "87",
+      "column": "23",
+      "message": "Expected indentation of 4 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "87",
+      "column": "9",
+      "message": "Expected indentation of 4 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "88",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "22",
+      "message": "Expected indentation of 0 spaces but found 21",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "49",
+      "message": "Expected indentation of 0 spaces but found 48",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "51",
+      "message": "Expected indentation of 0 spaces but found 50",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "19",
+      "message": "Expected indentation of 0 spaces but found 18",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "93",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "94",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "94",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "94",
+      "column": "22",
+      "message": "Expected indentation of 0 spaces but found 21",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "95",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "44",
+      "message": "Expected indentation of 0 spaces but found 43",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "59",
+      "message": "Expected indentation of 0 spaces but found 58",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "61",
+      "message": "Expected indentation of 0 spaces but found 60",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "100",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "101",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "101",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "101",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "102",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "41",
+      "message": "Expected indentation of 0 spaces but found 40",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "49",
+      "message": "Expected indentation of 0 spaces but found 48",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "51",
+      "message": "Expected indentation of 0 spaces but found 50",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "19",
+      "message": "Expected indentation of 0 spaces but found 18",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "107",
+      "column": "18",
+      "message": "Expected indentation of 0 spaces but found 17",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "108",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "108",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "108",
+      "column": "21",
+      "message": "Expected indentation of 0 spaces but found 20",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "109",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "54",
+      "message": "Expected indentation of 0 spaces but found 53",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "46",
+      "message": "Expected indentation of 0 spaces but found 45",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "47",
+      "message": "Expected indentation of 0 spaces but found 46",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "56",
+      "message": "Expected indentation of 0 spaces but found 55",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "114",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "115",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "115",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "115",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "116",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "45",
+      "message": "Expected indentation of 0 spaces but found 44",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "60",
+      "message": "Expected indentation of 0 spaces but found 59",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "73",
+      "message": "Expected indentation of 0 spaces but found 72",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "124",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "27",
+      "message": "Expected indentation of 0 spaces but found 26",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "125",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "53",
+      "message": "Expected indentation of 0 spaces but found 52",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "126",
+      "column": "41",
+      "message": "Expected indentation of 0 spaces but found 40",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "41",
+      "message": "Expected indentation of 0 spaces but found 40",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "51",
+      "message": "Expected indentation of 0 spaces but found 50",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "129",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "22",
+      "message": "Expected indentation of 0 spaces but found 21",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "46",
+      "message": "Expected indentation of 0 spaces but found 45",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "47",
+      "message": "Expected indentation of 0 spaces but found 46",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "20",
+      "message": "Expected indentation of 0 spaces but found 19",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "132",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "45",
+      "message": "Expected indentation of 0 spaces but found 44",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "46",
+      "message": "Expected indentation of 0 spaces but found 45",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "134",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "40",
+      "message": "Expected indentation of 0 spaces but found 39",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "53",
+      "message": "Expected indentation of 0 spaces but found 52",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "55",
+      "message": "Expected indentation of 0 spaces but found 54",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "64",
+      "message": "Expected indentation of 0 spaces but found 63",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "66",
+      "message": "Expected indentation of 0 spaces but found 65",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "73",
+      "message": "Expected indentation of 0 spaces but found 72",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "135",
+      "column": "72",
+      "message": "Expected indentation of 0 spaces but found 71",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "54",
+      "message": "Expected indentation of 0 spaces but found 53",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "55",
+      "message": "Expected indentation of 0 spaces but found 54",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "32",
+      "message": "Expected indentation of 0 spaces but found 31",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "137",
+      "column": "45",
+      "message": "Expected indentation of 0 spaces but found 44",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "139",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "139",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "139",
+      "column": "22",
+      "message": "Expected indentation of 0 spaces but found 21",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "139",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "53",
+      "message": "Expected indentation of 0 spaces but found 52",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "54",
+      "message": "Expected indentation of 0 spaces but found 53",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "42",
+      "message": "Expected indentation of 0 spaces but found 41",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "44",
+      "message": "Expected indentation of 0 spaces but found 43",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "140",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "141",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "56",
+      "message": "Expected indentation of 0 spaces but found 55",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "54",
+      "message": "Expected indentation of 0 spaces but found 53",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "34",
+      "message": "Expected indentation of 0 spaces but found 33",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "64",
+      "message": "Expected indentation of 0 spaces but found 63",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "73",
+      "message": "Expected indentation of 0 spaces but found 72",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "152",
+      "column": "43",
+      "message": "Expected indentation of 0 spaces but found 42",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "153",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "154",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "155",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "156",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "157",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "157",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "13",
+      "message": "Expected indentation of 0 spaces but found 12",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "158",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "159",
+      "column": "13",
+      "message": "Expected indentation of 0 spaces but found 12",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "160",
+      "column": "10",
+      "message": "Expected indentation of 0 spaces but found 9",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "160",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "61",
+      "message": "Expected indentation of 0 spaces but found 60",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "33",
+      "message": "Expected indentation of 0 spaces but found 32",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "60",
+      "message": "Expected indentation of 0 spaces but found 59",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "27",
+      "message": "Expected indentation of 0 spaces but found 26",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "161",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "162",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "44",
+      "message": "Expected indentation of 0 spaces but found 43",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "55",
+      "message": "Expected indentation of 0 spaces but found 54",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "57",
+      "message": "Expected indentation of 0 spaces but found 56",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "65",
+      "message": "Expected indentation of 0 spaces but found 64",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "74",
+      "message": "Expected indentation of 0 spaces but found 73",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "170",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "171",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "172",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "173",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "175",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "48",
+      "message": "Expected indentation of 0 spaces but found 47",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "50",
+      "message": "Expected indentation of 0 spaces but found 49",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "58",
+      "message": "Expected indentation of 0 spaces but found 57",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "69",
+      "message": "Expected indentation of 0 spaces but found 68",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "71",
+      "message": "Expected indentation of 0 spaces but found 70",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "80",
+      "message": "Expected indentation of 0 spaces but found 79",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "183",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "49",
+      "message": "Expected indentation of 0 spaces but found 48",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "50",
+      "message": "Expected indentation of 0 spaces but found 49",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "184",
+      "column": "15",
+      "message": "Expected indentation of 0 spaces but found 14",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "185",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "31",
+      "message": "Expected indentation of 0 spaces but found 30",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "50",
+      "message": "Expected indentation of 0 spaces but found 49",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "52",
+      "message": "Expected indentation of 0 spaces but found 51",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "71",
+      "message": "Expected indentation of 0 spaces but found 70",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "193",
+      "column": "60",
+      "message": "Expected indentation of 0 spaces but found 59",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "194",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "195",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "48",
+      "message": "Expected indentation of 0 spaces but found 47",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "49",
+      "message": "Expected indentation of 0 spaces but found 48",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "24",
+      "message": "Expected indentation of 0 spaces but found 23",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "196",
+      "column": "23",
+      "message": "Expected indentation of 0 spaces but found 22",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "197",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "56",
+      "message": "Expected indentation of 0 spaces but found 55",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "58",
+      "message": "Expected indentation of 0 spaces but found 57",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "66",
+      "message": "Expected indentation of 0 spaces but found 65",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "75",
+      "message": "Expected indentation of 0 spaces but found 74",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "37",
+      "message": "Expected indentation of 0 spaces but found 36",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "205",
+      "column": "45",
+      "message": "Expected indentation of 0 spaces but found 44",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "206",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "207",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "209",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "47",
+      "message": "Expected indentation of 0 spaces but found 46",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "216",
+      "column": "38",
+      "message": "Expected indentation of 0 spaces but found 37",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "217",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "218",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "219",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "219",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "219",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "219",
+      "column": "18",
+      "message": "Expected indentation of 0 spaces but found 17",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "220",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "221",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "222",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "27",
+      "message": "Expected indentation of 0 spaces but found 26",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "39",
+      "message": "Expected indentation of 0 spaces but found 38",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "14",
+      "message": "Expected indentation of 0 spaces but found 13",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "28",
+      "message": "Expected indentation of 0 spaces but found 27",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "227",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "25",
+      "message": "Expected indentation of 0 spaces but found 24",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "9",
+      "message": "Expected indentation of 0 spaces but found 8",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "29",
+      "message": "Expected indentation of 0 spaces but found 28",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "30",
+      "message": "Expected indentation of 0 spaces but found 29",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "35",
+      "message": "Expected indentation of 0 spaces but found 34",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "36",
+      "message": "Expected indentation of 0 spaces but found 35",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "16",
+      "message": "Expected indentation of 0 spaces but found 15",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "17",
+      "message": "Expected indentation of 0 spaces but found 16",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "228",
+      "column": "26",
+      "message": "Expected indentation of 0 spaces but found 25",
+      "level": "Error",
+      "type": "indent"
+    },
+    {
+      "file": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Crowdsale.sol",
+      "line": "229",
+      "column": "5",
+      "message": "Expected indentation of 0 spaces but found 4",
+      "level": "Error",
+      "type": "indent"
+    }
+  ]
+}

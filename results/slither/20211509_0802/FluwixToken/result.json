@@ -1,0 +1,8 @@
+{
+  "contract": "FluwixToken",
+  "tool": "slither",
+  "start": 1631692954.1113324,
+  "end": 1631692954.8534496,
+  "duration": 0.742117166519165,
+  "analysis": []
+}
