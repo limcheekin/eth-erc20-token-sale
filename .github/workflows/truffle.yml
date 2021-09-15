@@ -66,6 +66,7 @@ jobs:
         DIR=$(pwd);cd smartbugs
         for sol in "${solidityFiles[@]}"
         do
+          echo "Analysing $sol..."
           python smartBugs.py --tool all --file $DIR/contracts/$sol
         done
            
