@@ -1,0 +1,12 @@
+{
+  "contract": "FluwixTokenSale",
+  "tool": "maian",
+  "start": 1631692963.5910795,
+  "end": 1631692966.7061758,
+  "duration": 3.1150963306427,
+  "analysis": {
+    "is_lock_vulnerable": false,
+    "is_prodigal_vulnerable": false,
+    "is_suicidal_vulnerable": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "contract": "FluwixToken",
+  "tool": "smartcheck",
+  "start": 1631692951.878678,
+  "end": 1631692954.0717447,
+  "duration": 2.1930665969848633,
+  "analysis": [
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 2,
+      "column": 16,
+      "content": "^"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": 910067,
+      "severity": 1,
+      "line": 7,
+      "column": 4,
+      "content": "constructor(stringmemoryname,stringmemorysymbol,uint256initialSupply)ERC20(name,symbol){_mint(msg.sender,initialSupply);}"
+    }
+  ]
+}

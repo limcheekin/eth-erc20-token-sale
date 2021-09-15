@@ -1,0 +1,149 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "SmartCheck",
+          "fullDescription": {
+            "text": "Securify automatically checks for vulnerabilities and bad coding practices. It runs lexical and syntactical analysis on Solidity source code."
+          },
+          "informationUri": "https://tool.smartdec.net/",
+          "rules": [
+            {
+              "id": "Ignore_27",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_OVERPOWERED_ROLE"
+              }
+            },
+            {
+              "id": "Ignore_28",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_PRAGMAS_VERSION"
+              }
+            },
+            {
+              "id": "Ignore_38",
+              "name": "IgnoreVulnerability",
+              "shortDescription": {
+                "text": "SOLIDITY_VISIBILITY"
+              }
+            }
+          ],
+          "version": "0.0.12"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Kyc.sol"
+          },
+          "sourceLanguage": "Solidity"
+        }
+      ],
+      "logicalLocations": [
+        {
+          "kind": "contract",
+          "name": "Kyc"
+        }
+      ],
+      "results": [
+        {
+          "message": {
+            "text": "SOLIDITY_OVERPOWERED_ROLE"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Kyc.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "functionsetKycCompleted(address_address)externalonlyOwner{allowed[_address]=true;}"
+                  },
+                  "startColumn": 4,
+                  "startLine": 9
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_27"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_OVERPOWERED_ROLE"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Kyc.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "functionsetKycRevoked(address_address)externalonlyOwner{allowed[_address]=false;}"
+                  },
+                  "startColumn": 4,
+                  "startLine": 13
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_27"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_PRAGMAS_VERSION"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Kyc.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "^"
+                  },
+                  "startColumn": 16,
+                  "startLine": 2
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_28"
+        },
+        {
+          "message": {
+            "text": "SOLIDITY_VISIBILITY"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Kyc.sol"
+                },
+                "region": {
+                  "snippet": {
+                    "text": "mapping(address=>bool)allowed;"
+                  },
+                  "startColumn": 4,
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "ruleId": "Ignore_38"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}
