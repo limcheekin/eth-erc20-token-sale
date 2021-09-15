@@ -1,0 +1,8 @@
+{
+  "contract": "Greeter",
+  "tool": "solhint",
+  "start": 1631690721.238964,
+  "end": 1631690726.8410196,
+  "duration": 5.602055549621582,
+  "analysis": []
+}

@@ -1,0 +1,12 @@
+{
+  "contract": "Greeter",
+  "tool": "mythril",
+  "start": 1631690743.1657698,
+  "end": 1631690769.7196715,
+  "duration": 26.55390167236328,
+  "analysis": {
+    "success": false,
+    "error": "Input file not found: //home/runner/work/eth-erc20-token-sale/eth-erc20-token-sale/contracts/Greeter.sol",
+    "issues": []
+  }
+}
