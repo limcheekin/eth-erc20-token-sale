@@ -1,9 +1,11 @@
 {
   "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
     "@truffle/hdwallet-provider": "^1.5.0",
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.13",
     "@codechecks/client": "^0.1.11",
     "coveralls": "^3.1.1",
     "eth-gas-reporter": "^0.2.22",
