@@ -60,7 +60,11 @@ Steps to run the Greeter smart contract locally:
         # or
         yarn
         ```
-    - Create a `.secret` file with private key of your Rinkeby account.
+    - Create a `.env` file with Infura Project ID and private key of your Rinkeby account, for example:
+        ```
+        INFURA_PROJECT_ID=b874a2f145f84dc5a8466e5490816789
+        RINKEBY_PRIVATE_KEY=e0adc9a1b4818153aa47fee3f5160179bbb4f14157a971c133c22e2e35f88c9e
+        ```
     - Run the `truffle migrate --network rinkeby` command to deploy smart contract to Rinkeby network.
 
 
@@ -80,7 +84,13 @@ Steps to run the client locally:
     # or
     yarn
     ```
-2. Run the development server
+2. Update the following environment variables located in [client/.env.local](client/.env.local):
+    ```
+    NEXT_PUBLIC_GREETER_CONTRACT_ADDRESS=0x...
+    NEXT_PUBLIC_INFURA_PROJECT_ID=YOUR_INFURA_PROJECT_ID
+    ```
+
+3. Run the development server
     ```bash
     npm run dev
     # or
@@ -88,14 +98,17 @@ Steps to run the client locally:
     ```
     Open [http://localhost:3000](http://localhost:3000) with your browser, you will see the screen of the React client:
     
-    ![Main Screen](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/main/doc/images/main.png "Main Screen")
+    ![Main Screen](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/main.png "Main Screen")
 
     If React is not your cup of tea, open [http://localhost:3000/static.html](http://localhost:3000/static.html) with your browser, you will see the screen of the JQuery HTML client:
 
-    ![JQuery HTML](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/main/doc/images/static.png "JQuery HTML")
+    ![JQuery HTML](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/static.png "JQuery HTML")
 
-3. Update the value of the `contractAddress` at line 8 of `client/component/Greeter.tsx` and at line 101 of `client/public/static.html`.
+3. Update the value of the `contractAddress` of the [client/public/static.html](client/public/static.html#L101).
 
 4. Run with MetaMask
     
     As `truffle develop` exposes the blockchain onto port `9545`, you'll need to add a Custom RPC network of `http://localhost:9545` in your MetaMask to make it work.
+
+## Continuous Integration
+The repository setup Continuous Integration build pipeline with GitHub Actions. If you use it as your project template, the first build will fail upon project creation. To fix it, you need to setup the `CC_SECRET` encrypted secret for Codechecks and `DOT_COVERALLS_YML` encrypted secret for Coveralls. Please refer to [Continuous Integration Setup](doc/ContinuousIntegrationSetup.md) for more information.
