@@ -1,0 +1,41 @@
+{
+  "contract": "Kyc",
+  "tool": "smartcheck",
+  "start": 1631868702.4876235,
+  "end": 1631868704.7336824,
+  "duration": 2.246058940887451,
+  "analysis": [
+    {
+      "name": "SOLIDITY_OVERPOWERED_ROLE",
+      "patternId": "j83hf7",
+      "severity": 2,
+      "line": 9,
+      "column": 4,
+      "content": "functionsetKycCompleted(address_address)externalonlyOwner{allowed[_address]=true;}"
+    },
+    {
+      "name": "SOLIDITY_OVERPOWERED_ROLE",
+      "patternId": "j83hf7",
+      "severity": 2,
+      "line": 13,
+      "column": 4,
+      "content": "functionsetKycRevoked(address_address)externalonlyOwner{allowed[_address]=false;}"
+    },
+    {
+      "name": "SOLIDITY_PRAGMAS_VERSION",
+      "patternId": "23fc32",
+      "severity": 1,
+      "line": 2,
+      "column": 16,
+      "content": "^"
+    },
+    {
+      "name": "SOLIDITY_VISIBILITY",
+      "patternId": "b51ce0",
+      "severity": 1,
+      "line": 7,
+      "column": 4,
+      "content": "mapping(address=>bool)allowed;"
+    }
+  ]
+}
