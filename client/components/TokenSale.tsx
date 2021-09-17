@@ -54,7 +54,7 @@ export default function TokenSale() {
     console.log('handleBuyTokens')
     try {
       const receipt = await fluwixTokenSale.methods.buyTokens(account).send(
-        { from: account, value: buyToken }
+        { from: account, value: buyToken * (10 ** 18) }
       )
       console.log('receipt', receipt)
       getBalance()
