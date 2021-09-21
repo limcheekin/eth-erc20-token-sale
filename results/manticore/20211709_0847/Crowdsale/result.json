@@ -1,0 +1,8 @@
+{
+  "contract": "Crowdsale",
+  "tool": "manticore",
+  "start": 1631868463.074318,
+  "end": 1631868479.265322,
+  "duration": 16.191004037857056,
+  "analysis": []
+}
