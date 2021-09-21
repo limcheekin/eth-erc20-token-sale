@@ -65,9 +65,14 @@ export default function TokenSale() {
 
   function getBalance() {
     console.log('getBalance')
-    fluwixToken.methods.balanceOf(account).call().then((result: any) => {
-      setBalance(parseFloat((result / 1e18).toFixed(6)))
-    });
+    try {
+      fluwixToken.methods.balanceOf(account).call().then((result: any) => {
+        console.log('getBalance: result', result)
+        setBalance(parseFloat((result / 1e18).toFixed(6)))
+      })
+    } catch (error) {
+      console.error('error in try...catch', error)
+    }
   }
 
   useEffect(() => {
