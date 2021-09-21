@@ -12,5 +12,5 @@ module.exports = async function (deployer, network, accounts) {
     await deployer.deploy(Kyc);
     await deployer.deploy(FluwixTokenSale, rate, initialAccount, FluwixToken.address, Kyc.address);
     const tokenInstance = await FluwixToken.deployed();
-    await tokenInstance.transfer(FluwixTokenSale.address, INITIAL_TOKEN_SUPPLY);
+    await tokenInstance.transfer(FluwixTokenSale.address, await tokenInstance.totalSupply());
 };

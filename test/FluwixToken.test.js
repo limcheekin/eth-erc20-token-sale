@@ -32,12 +32,12 @@ contract('FluwixTokenTest', ([sender, receiver, ...accounts]) => {
   })
 
   it('totalSupply() correct?', async () => {
-    assert.equal(INITIAL_TOKEN_SUPPLY.toString(), 
+    assert.equal(INITIAL_TOKEN_SUPPLY * 1e18.toString(), 
                 (await this.erc20.totalSupply()).toString())
   })
 
   it('balanceOf(sender) correct?', async () => {
-    assert.equal(INITIAL_TOKEN_SUPPLY.toString(), 
+    assert.equal(INITIAL_TOKEN_SUPPLY * 1e18.toString(), 
                 (await this.erc20.balanceOf(sender)).toString())
   })  
 
