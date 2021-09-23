@@ -22,7 +22,7 @@ function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/limcheekin/fluwix-token-sales">{title}</a>
+          Welcome to <a href="https://github.com/limcheekin/eth-erc20-token-sale">{title}</a>
         </h1>
 
         <p className={styles.description}>
