@@ -1,4 +1,4 @@
-# Ethereum dApps Next.js Boiletplate [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Ethereum ERC20 Token Sale [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <p>
   <img alt="made for ethereum" src="https://img.shields.io/badge/made_for-ethereum-771ea5.svg">
@@ -6,46 +6,65 @@
   <img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue.svg">
 </p>
 
-The creation of Ethereum dApps Next.js Boiletplate is inspired by a truffle box [truffle-next](https://www.trufflesuite.com/boxes/truffle-next) with the
-following improvements:
- - TypeScript support
- - WalletConnect integration
- - Better UI with Chakra UI
- - JQuery HTML example (without React)
- - Github workflow to run `truffle test` on every `git push` 
+I think the Initial Coin Offering (ICO) is the first use case every Solidity developer need to get familiar with even the ICO mania is behind us. 
 
-It is tested with [MetaMask](https://metamask.io/) Chrome extension and Android. I think it is good idea to test out [the dApps](https://eth-dapps-nextjs-boiletplate.vercel.app/) yourself before you continue further reading.
+The token known as `Fluwix` with symbol `FWX`, as I assumed whatever I learned here will be integrated into [another project of the same name](https://limcheekin.medium.com/flutter-widgets-explorer-go-web-fluwix-com-2b72f6809c1c) in the future. The exchange rate of `ETH` to `FWX` is 1 to 1. For example, for 0.001 ETH you will get 0.001 FWX in return. 
 
-The dApps is interacting with a [Greeter smart contract](https://github.com/ethereum/ethereum-org/blob/master/views/content/greeter.md) that running on Rinkeby testnet, hence you need some ETH in your wallet. If you don't have any, you can request some ETH from [Rinkeby Faucet](https://faucet.rinkeby.io/). 
+The project is created by referred to [an excellent tutorial](https://ethereum-blockchain-developer.com/060-tokenization/00-overview/) published by Thomas Wiesner.
+
+The key feature of the project is whitelisting. Only the address of user accounts being whitelisted by the owner (the deployer of the contract) can buy the token.
+
+The project is using the following third party libraries to simplify codes:
+- Use `@openzeppelin/contracts@4.3.1` for implementation of ERC20
+- Reuse the code of [Crowdsale.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.3.0/contracts/crowdsale/Crowdsale.sol) from `@openzeppelin/contracts@2.3.0`.
+- Use `@openzeppelin/test-helpers@0.5.13` for writing unit tests.
+
+It is tested with [MetaMask](https://metamask.io/) Chrome extension and Android. I think it is good idea to test out [the dApps](https://eth-erc20-token-sale.vercel.app/) yourself before looking into the code.
+
+The dApps is interacting with smart contracts running on Rinkeby testnet, hence you need some ETH in your wallet. If you don't have any, you can request some ETH from [Rinkeby Faucet](https://faucet.rinkeby.io/). 
 
 
 ## Smart Contract Development
 The project is bootstrapped with [Truffle](https://www.trufflesuite.com/truffle) using `truffle init` command.
 
-Steps to run the Greeter smart contract locally:
+Steps to run the smart contracts locally:
 1. Clone the github repository. This also takes care of installing the necessary dependencies.
     ```bash
-    git clone git@github.com:limcheekin/eth-dapps-nextjs-boiletplate.git
+    git clone git@github.com:limcheekin/eth-erc20-token-sale.git
+    ```
+    
+2. Create a `.env` file with configuration data for the token, for example:
+    ```
+    TOKEN_NAME=Your_Token_Name
+    TOKEN_SYMBOL=Your_Symbol
+    INITIAL_TOKEN_SUPPLY=1000000000
     ```
 
-2. Install Truffle globally.
+3. Install dependencies in the root directory.
+    ```bash
+    npm i
+    # or
+    yarn
+    ```
+
+4. Install Truffle globally.
     ```bash
     npm install -g truffle
     ```
 
-3. Run the development console in the eth-dapps-nextjs-boiletplate directory.
+5. Run the development console in the root directory of the project.
     ```bash
     truffle develop
     ```
 
-4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+6. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
     ```bash
     compile
     migrate
     ```
-    Please note down the contract address of the deployed Greeter smart contract. We will need to update it in the front-end code.
+    Please note down the contract address of the deployed smart contracts. We will need to update it in the front-end's `.env.local`.
 
-5. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
+7. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
     ```bash
     // If inside the development console.
     test
@@ -53,20 +72,15 @@ Steps to run the Greeter smart contract locally:
     // If outside the development console.
     truffle test
     ```
-6. Deploy smart contract to Rinkeby testnet
-    - Install dependencies in the root directory.
-        ```bash
-        npm i
-        # or
-        yarn
-        ```
-    - Create a `.env` file with Infura Project ID and private key of your Rinkeby account, for example:
-        ```
-        INFURA_PROJECT_ID=b874a2f145f84dc5a8466e5490816789
-        RINKEBY_PRIVATE_KEY=e0adc9a1b4818153aa47fee3f5160179bbb4f14157a971c133c22e2e35f88c9e
-        ```
-    - Run the `truffle migrate --network rinkeby` command to deploy smart contract to Rinkeby network.
 
+7. Deploy smart contract to Rinkeby testnet
+    - Add the configuration of Infura Project ID and private key of your Rinkeby account to the `.env` file, for example:
+        ```
+        INFURA_PROJECT_ID=Your_Infura_Project_Id
+        RINKEBY_PRIVATE_KEY=Your_Rinkeby_Private_Key
+        ```
+
+    - Run the `truffle migrate --network rinkeby` command to deploy smart contract to Rinkeby network.
 
 
 ## dApps Front End
@@ -86,8 +100,9 @@ Steps to run the client locally:
     ```
 2. Update the following environment variables located in [client/.env.local](client/.env.local):
     ```
-    NEXT_PUBLIC_GREETER_CONTRACT_ADDRESS=0x...
-    NEXT_PUBLIC_INFURA_PROJECT_ID=YOUR_INFURA_PROJECT_ID
+    NEXT_PUBLIC_FLUWIX_TOKEN_CONTRACT_ADDRESS=0x...
+    NEXT_PUBLIC_KYC_CONTRACT_ADDRESS=0x...
+    NEXT_PUBLIC_FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS=0x..
     ```
 
 3. Run the development server
@@ -98,13 +113,7 @@ Steps to run the client locally:
     ```
     Open [http://localhost:3000](http://localhost:3000) with your browser, you will see the screen of the React client:
     
-    ![Main Screen](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/main.png "Main Screen")
-
-    If React is not your cup of tea, open [http://localhost:3000/static.html](http://localhost:3000/static.html) with your browser, you will see the screen of the JQuery HTML client:
-
-    ![JQuery HTML](https://github.com/limcheekin/eth-dapps-nextjs-boiletplate/raw/master/doc/images/static.png "JQuery HTML")
-
-3. Update the value of the `contractAddress` of the [client/public/static.html](client/public/static.html#L101).
+    ![Main Screen](https://github.com/limcheekin/eth-erc20-token-sale/raw/master/doc/images/main.png "Main Screen")
 
 4. Run with MetaMask
     
