@@ -1,0 +1,8 @@
+{
+  "contract": "FluwixToken",
+  "tool": "osiris",
+  "start": 1632477359.0026963,
+  "end": 1632477359.714117,
+  "duration": 0.7114207744598389,
+  "analysis": []
+}

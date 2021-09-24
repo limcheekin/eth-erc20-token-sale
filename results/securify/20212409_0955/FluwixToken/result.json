@@ -1,0 +1,8 @@
+{
+  "contract": "FluwixToken",
+  "tool": "securify",
+  "start": 1632477350.7096994,
+  "end": 1632477351.5740125,
+  "duration": 0.8643131256103516,
+  "analysis": null
+}

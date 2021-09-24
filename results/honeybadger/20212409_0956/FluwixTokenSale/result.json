@@ -1,0 +1,8 @@
+{
+  "contract": "FluwixTokenSale",
+  "tool": "honeybadger",
+  "start": 1632477371.1525278,
+  "end": 1632477371.8391047,
+  "duration": 0.6865768432617188,
+  "analysis": []
+}

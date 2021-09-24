@@ -1,0 +1,8 @@
+{
+  "contract": "FluwixTokenSale",
+  "tool": "solhint",
+  "start": 1632477366.5883768,
+  "end": 1632477367.4526641,
+  "duration": 0.8642873764038086,
+  "analysis": []
+}

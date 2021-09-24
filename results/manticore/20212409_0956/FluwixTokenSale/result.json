@@ -1,0 +1,10 @@
+{
+  "contract": "FluwixTokenSale",
+  "tool": "manticore",
+  "start": 1632477361.9571786,
+  "end": 1632477363.251573,
+  "duration": 1.2943944931030273,
+  "analysis": [
+    []
+  ]
+}

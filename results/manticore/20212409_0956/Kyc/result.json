@@ -1,0 +1,10 @@
+{
+  "contract": "Kyc",
+  "tool": "manticore",
+  "start": 1632477377.7086337,
+  "end": 1632477378.9540162,
+  "duration": 1.24538254737854,
+  "analysis": [
+    []
+  ]
+}

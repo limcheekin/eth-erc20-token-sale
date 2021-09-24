@@ -1,8 +1,0 @@
-{
-  "contract": "Crowdsale",
-  "tool": "securify",
-  "start": 1631868536.583083,
-  "end": 1631868567.2662532,
-  "duration": 30.683170318603516,
-  "analysis": null
-}
