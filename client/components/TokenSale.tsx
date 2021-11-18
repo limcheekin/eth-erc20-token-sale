@@ -14,9 +14,9 @@ export default function TokenSale() {
   const FLUWIX_TOKEN_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_FLUWIX_TOKEN_CONTRACT_ADDRESS
   const KYC_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_KYC_CONTRACT_ADDRESS
   const FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS
-  const fluwixTokenAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(FluwixToken.abi))
-  const fluwixTokenSaleAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(FluwixTokenSale.abi))
-  const kycAbi: AbiItem[] = web3 && JSON.parse(JSON.stringify(Kyc.abi))
+  const fluwixTokenAbi: AbiItem[] = web3 && FluwixToken.abi as AbiItem[]
+  const fluwixTokenSaleAbi: AbiItem[] = web3 && FluwixTokenSale.abi as AbiItem[]
+  const kycAbi: AbiItem[] = web3 && Kyc.abi as AbiItem[]
   const fluwixToken = web3 && FLUWIX_TOKEN_CONTRACT_ADDRESS && new web3.eth.Contract(fluwixTokenAbi, FLUWIX_TOKEN_CONTRACT_ADDRESS)
   const kyc = web3 && KYC_CONTRACT_ADDRESS && new web3.eth.Contract(kycAbi, KYC_CONTRACT_ADDRESS)
   const fluwixTokenSale = web3 && FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS && new web3.eth.Contract(fluwixTokenSaleAbi, FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS)
