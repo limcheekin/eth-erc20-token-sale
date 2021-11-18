@@ -1,4 +1,4 @@
-# Ethereum ERC20 Token Sale [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Ethereum ERC20 Token Sale [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/AQD9ANXV806Dr1q-FEcv-BuQSiI7aOvKA_bCAkaaJX9bEQ)
 
 <p>
   <img alt="made for ethereum" src="https://img.shields.io/badge/made_for-ethereum-771ea5.svg">
@@ -19,7 +19,7 @@ The project is using the following third party libraries to simplify codes:
 - Reuse the code of [Crowdsale.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.3.0/contracts/crowdsale/Crowdsale.sol) from `@openzeppelin/contracts@2.3.0`.
 - Use `@openzeppelin/test-helpers@0.5.13` for writing unit tests.
 
-It is tested with [MetaMask](https://metamask.io/) Chrome extension and Android. I think it is good idea to test out [the dApps](https://eth-erc20-token-sale.vercel.app/) yourself before looking into the code.
+It is tested with [MetaMask](https://metamask.io/) Chrome extension and Android. I think it is good idea to test out [the dApps](https://eth-erc20-token-sale.vercel.app/) (or [on Skynet](https://040fq06lqnpkt0tfbav18hpfv0dp0ih27dkenig3ur104hkq4lvlm48.siasky.net/)) yourself before looking into the code.
 
 The dApps is interacting with smart contracts running on Rinkeby testnet, hence you need some ETH in your wallet. If you don't have any, you can request some ETH from [Rinkeby Faucet](https://faucet.rinkeby.io/). 
 
@@ -98,12 +98,16 @@ Steps to run the client locally:
     # or
     yarn
     ```
-2. Update the following environment variables located in [client/.env.local](client/.env.local):
+
+2. Create the `.env.local` file in the `client` directory and define the following environment variables:
     ```
     NEXT_PUBLIC_FLUWIX_TOKEN_CONTRACT_ADDRESS=0x...
     NEXT_PUBLIC_KYC_CONTRACT_ADDRESS=0x...
     NEXT_PUBLIC_FLUWIX_TOKEN_SALE_CONTRACT_ADDRESS=0x..
     ```
+   As the `.env.local` file is not stored in the repo:
+   - For deployment to Vercel, you need to configure the [environment variables](https://vercel.com/docs/concepts/projects/environment-variables) there.
+   - For deployment to Skynet, you need to add the content of the `.env.local` file as `DOT_ENV_DOT_LOCAL` secret.
 
 3. Run the development server
     ```bash
