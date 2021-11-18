@@ -21,6 +21,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+coverage.json
 
 # nyc test coverage
 .nyc_output
@@ -71,6 +72,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+client/.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -109,5 +111,8 @@ build/
 # Ignore vscode
 .vscode/
 
-# Ignore .secret
-.secret
+# Ignore codechecks files
+gasReporterOutput.json
+
+# Ignore 'next export' out directory
+**/out/

@@ -1,0 +1,31 @@
+{
+    "background_color": "#fff",
+    "display": "standalone",
+    "homepage_url": "https://eth-erc20-token-sale.vercel.app/",
+    "providedBy": {
+      "name": "Lim Chee Kin",
+      "url": "https://github.com/limcheekin/eth-erc20-token-sale"
+    },
+    "icons": [
+      {
+        "src": "./images/192x192_App_Icon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "./images/512x512_App_Icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "orientation": "portrait",
+    "name": "Fluwix Token Sale",
+    "description": "A dApps to demo the Crowd Sale of an ERC20 token known as Fluwix (FWX).",
+    "iconPath": "./images/256x256_App_Icon.png",
+    "short_name": "eth-erc20-token-sale",
+    "start_url": ".",
+    "theme_color": "#ffffff",
+    "skylink": "AQDeoXNWsZyfJhkSkRIzaThBlmzVKaySy9mpPvOmIcSIoA"
+  }
